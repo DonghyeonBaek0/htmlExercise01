@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: #eee;
+}
+.header .container{
+    height: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-bottom: 1px solid #e5e5e5;
+}
+.header .container .left{
+    float: right;
+}
+.header .container .right{
+    float: left;
+}
+.content{
+
+}
+.content [type="pre"]{
+
+}
+.content [type="blockquote"]{
+    margin: 0;
+}
+blockquote p{
+    padding: 15px;
+    background: #eee;
+    border-radius: 3px;
+}
+blockquote p::before{
+    content: '\201c';
+}
+blockquote p::after{
+    content: '\201d';
+}
+blockquote footer{
+    font-weight: 300;
+}
+article{
+
+}
+article h3{
+    margin-left: 10px;
+
+}
+article h4{
+    margin-left: 20px;
+}
+article p{
+    margin-left: 30px;
+}
+article{
+    border-bottom: 1px solid #e5e5e5;
+}
+.footer{
+
+}
