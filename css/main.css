@@ -10,6 +10,7 @@ body{
     font-size: 20px;
     font-family: sans-serif;
     border-bottom: 1px solid #e5e5e5;
+    box-shadow: #d4d4d4 0 5px 0 0;
 }
 .header .container .left{
     float: right;
@@ -56,6 +57,26 @@ article p{
 article{
     border-bottom: 1px solid #e5e5e5;
 }
+.day-forecast .last{
+    border: none;
+}
 .footer{
 
+}
+#logo{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#logo button{
+    padding: 10px;
+    align-content: center;
+    text-decoration: none;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+}
+#logo img{
+    width: 200px;
 }
